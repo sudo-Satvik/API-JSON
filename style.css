@@ -1,0 +1,46 @@
+body{
+    background: url('https://cdn.pixabay.com/photo/2012/02/25/19/11/nightsky-16967_960_720.jpg');
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #ff8b8b,
+    0 0 20px #ff6767,
+    0 0 40px rgb(255, 0, 0),
+    0 0 80px rgb(255, 0, 0),
+    0 0 90px rgb(255, 0, 0),
+    0 0 100px rgb(255, 71, 71),
+    0 0 150px rgb(255, 71, 71);
+
+}
+button{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: background 0.5s, color 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background: #fff;
+    color: #000;
+}
+.data{
+    background-color: #000000ce;
+    text-align: center;
+    padding: 120px 0px;
+}
+.data div{
+    border: 2px solid #fff;
+    width: auto;
+    padding: 10px;
+    display: inline;
+}
